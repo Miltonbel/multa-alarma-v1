@@ -16,6 +16,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatTableModule} from '@angular/material/table';
 import {MatIconRegistry} from '@angular/material/icon';
+import {TimeModule} from "../time/time.module";
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import {MatIconRegistry} from '@angular/material/icon';
     MatTableModule,
     AppRoutingModule,
     CategoryModule,
+    TimeModule,
     HttpClientModule
   ],
   exports: [

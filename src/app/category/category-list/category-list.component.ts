@@ -19,15 +19,12 @@ export class CategoryListComponent implements OnInit {
 
 
   editarCategoria(categoria: PeriodicElement) {
-
   }
 
   eliminarCategoria(categoria: PeriodicElement) {
-
   }
 
 }
-
 
 
 export interface PeriodicElement {
