@@ -1,0 +1,90 @@
+@import '../../../assets/partials/colors';
+
+#listTimeContainer {
+  max-width: 328px;
+  margin-left: 30px;
+  margin-top: 30px;
+
+}
+
+#listTimeContainer .mat-toolbar-row,
+#listTimeContainer a.mat-icon-button {
+  padding-left: 24px;
+}
+
+#listTimeContainer .mat-toolbar-row:first-child h1.page-title {
+  padding-left: 0;
+}
+
+#formAddTime {
+  padding-left: 24px;
+}
+
+.page-title {
+  font-size: 24px;
+  margin: 0;
+  padding: 16px;
+  color: $background-color-letter-type-2;
+}
+
+.custom-button {
+  margin-right: 10px;
+}
+
+.example-full-width {
+  width: 100%;
+  padding-bottom: 12px;
+  background-color:rgba(0, 0, 0, 0);
+
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.custom-btn {
+  font-size: 14px;
+  background: none;
+  border-color: $gray-88;
+  border-style: solid;
+  border-radius: 4%;
+  color: $primary-color;
+  border-color: $primary-color;
+  border-width: 0.1em;
+}
+
+.custom-input {
+  font-size: 16px;
+  //background: $gray-50;
+  color: $background-color-letter-type-2;
+}
+
+.mat-toolbar {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+
+  color: $primary-color !important;
+}
+
+::ng-deep.mat-form-field-underline {
+
+  background-color: $primary-color !important;
+}
+
+::ng-deep.mat-form-field-ripple {
+  background-color: $primary-color !important;
+}
+
+
+.custom-button:hover,
+.custom-btn:hover {
+  color: $background-color-white;
+  background-color: $primary-color;
+}
+.mat-form-field {
+  background-color: transparent !important; /* Establece el fondo como transparente */
+}

@@ -8,11 +8,13 @@ import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
 import {ReactiveFormsModule} from "@angular/forms";
 import {AppRoutingModule} from "../app-routing.module";
+import { TimeAddComponent } from './time-add/time-add.component';
 
 
 @NgModule({
   declarations: [
-    TimeListComponent
+    TimeListComponent,
+    TimeAddComponent
   ],
   imports: [
     CommonModule,
