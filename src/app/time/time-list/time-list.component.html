@@ -7,7 +7,6 @@
     <mat-toolbar-row>
       <button mat-icon-button id="btnAgregarTiempo" routerLink="/addTime">
         <mat-icon id="iconAdd">add</mat-icon>
-
         <span id="spanAgregarTiempo">Agregar Tiempo</span>
       </button>
     </mat-toolbar-row>
@@ -30,7 +29,7 @@
         <button mat-button class="custom-button custom-btn" (click)="editarTiempo(element)">
           Editar
         </button>
-        <button mat-button class="custom-btn" (click)="eliminarTiempo(element)">
+        <button mat-button class="custom-btn-orange" (click)="eliminarTiempo(element)">
           Eliminar
         </button>
       </td>
