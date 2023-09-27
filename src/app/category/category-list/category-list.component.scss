@@ -31,22 +31,7 @@ button.mat-icon-button {
     text-align: left;
 }
 
-.mat-table,
-.mat-cell,
-.mat-table,
-.mat-header-cell {
-    font-size: 16px !important;
-}
 
-.mat-table,
-.mat-header-cell {
-    color: $background-color-letter-type-3;
-}
-
-.mat-table,
-.mat-cell {
-    color: $background-color-letter-type-2;
-}
 
 #spanAgregarCategoria {
     font-size: 14px;
@@ -162,4 +147,27 @@ button.mat-icon-button {
         color: $background-color-white;
         background-color: $primary-color;
     }
+}
+
+
+.mat-table,
+.mat-cell,
+.mat-table,
+.mat-header-cell {
+    font-size: 16px !important;
+}
+
+.mdc-data-table__header-cell,
+
+.mat-table,
+.mat-header-cell {
+    font-size: 16px;
+    color: $background-color-letter-type-3;
+}
+
+.mat-table,
+.mat-cell, 
+.mdc-data-table__cell{
+    font-size: 16px;
+    color: $background-color-letter-type-2;
 }
