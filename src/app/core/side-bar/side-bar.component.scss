@@ -1,0 +1,66 @@
+@import '../../../assets/partials/colors';
+:host {
+    .nav-list-container {
+        position: relative; /* Posición relativa para que el contenedor contenga al botón de logout */
+        overflow: hidden; /* Ocultar la barra de desplazamiento */
+        height: 100%; /* Utilizar todo el alto del contenedor */
+        background-image: url('../../../assets/images/fondo.svg');
+        background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+        background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir completamente el contenedor */
+        /* Otras propiedades CSS según tus necesidades */
+        color: $background-color-letter-type-menu;
+      }
+    .mat-icon {
+      vertical-align: middle;
+      margin-right: 20px;
+    }
+    .profile-card {
+      text-align: center;
+      padding: 0 20px 20px 20px;
+      img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+
+  }
+  .logout-option {
+    position: absolute;
+    bottom: 0; /* Pegar el elemento en la parte inferior del contenedor */
+    left: 0; /* Alinearlo a la izquierda del contenedor */
+    width: 100%; /* Ocupar todo el ancho del contenedor */
+    padding: 10px 20px; /* Añadir espaciado al botón */
+    border-top: 1px solid #ccc; /* Línea divisoria por encima del botón */
+    z-index: 1; /* Asegurar que esté por encima del contenido de la lista */
+    background: none; /* Eliminar fondo */
+  }
+
+
+.mat-nav-list a.mat-list-item {
+  width: 346px; /* Establecer el ancho fijo en 346px para cada elemento */
+  text-align: center; /* Opcional: centrar el contenido horizontalmente */
+  white-space: nowrap; /* Opcional: evitar que el texto se ajuste automáticamente */
+  overflow: hidden; /* Opcional: ocultar contenido adicional si lo hay */
+  text-overflow: ellipsis; /* Opcional: agregar puntos suspensivos si el texto es demasiado largo */
+}
+
+
+.mat-nav-list a.mat-list-item.list-item-active {
+  background: $primary-color ;
+  color: $background-color-white ;
+}
+
+  /* Cambiar el fondo a rojo y el color del texto a blanco al hacer hover en las opciones del menú */
+  .mat-nav-list a.mat-list-item:hover {
+    background-color:  $primary-color; /* Cambiar el fondo a rojo */
+    color: $background-color-white; /* Cambiar el color del texto a blanco */
+
+    
+  }
+/* Cambiar el color del elemento activo cuando se hace hover */
+.mat-nav-list a.mat-list-item:hover .mat-list-item.list-item-active {
+  background-color: transparent !important; /* Establece el fondo como transparente */
+  color: red !important; /* Cambia el color del texto del elemento activo a rojo */
+}

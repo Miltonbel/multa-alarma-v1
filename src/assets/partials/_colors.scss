@@ -1,0 +1,62 @@
+$primary-color: #00BCD4;
+$companyBaseColor: $primary-color;
+$multaAlarm-base: $companyBaseColor;
+$multaAlarm-light-98: scale-color($multaAlarm-base, $lightness: 98%);
+$multaAlarm-light-95: scale-color($multaAlarm-base, $lightness: 95%);
+$multaAlarm-light-90: scale-color($multaAlarm-base, $lightness: 90%);
+$multaAlarm-light-85: scale-color($multaAlarm-base, $lightness: 85%);
+$multaAlarm-light-80: scale-color($multaAlarm-base, $lightness: 80%);
+$multaAlarm-light-75: scale-color($multaAlarm-base, $lightness: 75%);
+$multaAlarm-light-70: scale-color($multaAlarm-base, $lightness: 70%);
+$multaAlarm-light-65: scale-color($multaAlarm-base, $lightness: 65%);
+$multaAlarm-light-60: scale-color($multaAlarm-base, $lightness: 60%);
+$multaAlarm-light-55: scale-color($multaAlarm-base, $lightness: 55%);
+$multaAlarm-light-50: scale-color($multaAlarm-base, $lightness: 50%);
+$multaAlarm-light-45: scale-color($multaAlarm-base, $lightness: 45%);
+$multaAlarm-light-40: scale-color($multaAlarm-base, $lightness: 40%);
+$multaAlarm-light-35: scale-color($multaAlarm-base, $lightness: 35%);
+$multaAlarm-light-30: scale-color($multaAlarm-base, $lightness: 30%);
+$multaAlarm-light-25: scale-color($multaAlarm-base, $lightness: 25%);
+$multaAlarm-light-20: scale-color($multaAlarm-base, $lightness: 20%);
+$multaAlarm-light-15: scale-color($multaAlarm-base, $lightness: 15%);
+$multaAlarm-light-10: scale-color($multaAlarm-base, $lightness: 10%);
+$multaAlarm-light-5: scale-color($multaAlarm-base, $lightness: 5%);
+
+$multaAlarm-dark-5: scale-color($multaAlarm-base, $lightness: -5%);
+$multaAlarm-dark-10: scale-color($multaAlarm-base, $lightness: -10%);
+$multaAlarm-dark-15: scale-color($multaAlarm-base, $lightness: -15%);
+$multaAlarm-dark-20: scale-color($multaAlarm-base, $lightness: -20%);
+$multaAlarm-dark-25: scale-color($multaAlarm-base, $lightness: -25%);
+$multaAlarm-dark-30: scale-color($multaAlarm-base, $lightness: -30%);
+$multaAlarm-dark-35: scale-color($multaAlarm-base, $lightness: -35%);
+$multaAlarm-dark-40: scale-color($multaAlarm-base, $lightness: -40%);
+$multaAlarm-dark-45: scale-color($multaAlarm-base, $lightness: -45%);
+$multaAlarm-dark-50: scale-color($multaAlarm-base, $lightness: -50%);
+$multaAlarm-dark-55: scale-color($multaAlarm-base, $lightness: -55%);
+$multaAlarm-dark-60: scale-color($multaAlarm-base, $lightness: -60%);
+$multaAlarm-dark-65: scale-color($multaAlarm-base, $lightness: -65%);
+$multaAlarm-dark-70: scale-color($multaAlarm-base, $lightness: -70%);
+$multaAlarm-dark-75: scale-color($multaAlarm-base, $lightness: -75%);
+$multaAlarm-dark-80: scale-color($multaAlarm-base, $lightness: -80%);
+$multaAlarm-dark-85: scale-color($multaAlarm-base, $lightness: -85%);
+$multaAlarm-dark-90: scale-color($multaAlarm-base, $lightness: -90%);
+$multaAlarm-dark-95: scale-color($multaAlarm-base, $lightness: -95%);
+$multaAlarm-dark-98: scale-color($multaAlarm-base, $lightness: -98%);
+
+$gray-88: scale-color(#000000,$lightness: 88%);
+$background-color: #E0F7FA;
+$background-color-white: white;
+$gray-50: rgba(196, 196, 196, 0.3);
+
+$background-color-gradientDashBoard : linear-gradient(to bottom, #{$multaAlarm-light-80}, #{$background-color} 20%);
+
+
+$multaAlarm-gradientDashBoard: linear-gradient(to bottom, #{$multaAlarm-dark-50}, #{$multaAlarm-base} 30%);
+
+//Letras
+
+$background-color-letter-type-1: #D84315;
+$background-color-letter-type-2: #FF5722;
+$background-color-letter-type-3: #006064;
+
+$background-color-letter-type-menu: #5A5757;

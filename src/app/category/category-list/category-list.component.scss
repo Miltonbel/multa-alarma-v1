@@ -1,0 +1,165 @@
+@import '../../../assets/partials/colors';
+
+button.mat-icon-button {
+    margin-right: 8px;
+}
+
+
+#listCategoryContainer {
+    max-width: 680px;
+    margin-left: 30px;
+    margin-top: 30px;
+
+
+}
+
+#listCategoryContainer .mat-toolbar-row,
+#listCategoryContainer a.mat-icon-button {
+    padding-left: 24px;
+}
+
+#listCategoryContainer .mat-toolbar-row:first-child h1.page-title {
+    padding-left: 0;
+}
+
+.mat-table {
+    width: 100%;
+    margin-left: 24px;
+}
+
+.mat-cell {
+    text-align: left;
+}
+
+.mat-table,
+.mat-cell,
+.mat-table,
+.mat-header-cell {
+    font-size: 16px !important;
+}
+
+.mat-table,
+.mat-header-cell {
+    color: $background-color-letter-type-3;
+}
+
+.mat-table,
+.mat-cell {
+    color: $background-color-letter-type-2;
+}
+
+#spanAgregarCategoria {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $primary-color;
+}
+
+#btnAgregarCategoria {
+    background: none;
+    border-color: $gray-88;
+    border-style: solid;
+    border-radius: 4%;
+    border-width: 0.1em;
+}
+
+.customToolBar {
+    padding-bottom: 16px;
+}
+
+.custom-btn {
+    font-size: 14px;
+    background: none;
+    border-color: $gray-88;
+    border-style: solid;
+    border-radius: 4%;
+    color: $primary-color;
+    border-color: $primary-color;
+    border-width: 0.1em;
+
+}
+
+.page-title {
+    font-size: 24px;
+    margin: 0;
+    padding: 16px;
+    color: $background-color-letter-type-2;
+}
+
+.mat-icon-button {
+    margin-right: 8px;
+}
+
+.mat-toolbar {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.mat-toolbar-row {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+
+
+button.mat-icon-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.mat-toolbar-row a.mat-icon-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.mat-toolbar-row a.mat-icon-button mat-icon {
+    margin-right: 8px;
+}
+
+#iconAdd {
+    vertical-align: text-bottom;
+    color: $primary-color;
+}
+
+
+.mat-column-actions {
+    width: 260px;
+}
+
+
+.mat-header-cell.mat-column-actions {
+    width: 260px;
+}
+
+
+.mat-column-position {
+    width: 126px;
+}
+
+
+.mat-header-cell.mat-column-position {
+    width: 126px;
+}
+
+.custom-button {
+    margin-right: 10px;
+}
+
+.custom-button:hover,
+.custom-btn:hover {
+    color: $background-color-white;
+    background-color: $primary-color;
+}
+
+#btnAgregarCategoria:hover,
+#btnAgregarCategoria:hover mat-icon {
+    color: $background-color-white;
+    background-color: $primary-color;
+
+    #spanAgregarCategoria {
+        color: $background-color-white;
+        background-color: $primary-color;
+    }
+}

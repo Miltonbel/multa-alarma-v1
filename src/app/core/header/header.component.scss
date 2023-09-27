@@ -1,0 +1,13 @@
+@import '../../../assets/partials/colors';
+
+.app-name {
+    font-family: 'Baloo', sans-serif;
+    font-size: 36px;
+    color: $background-color-letter-type-1;
+    margin-right: 10px;
+}
+
+#mat-toolbar-custom {
+    border: none;
+    background: none;
+}

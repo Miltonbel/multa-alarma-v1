@@ -1,0 +1,30 @@
+@import '../../assets/partials/colors';
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  mat-drawer {
+    width: 350px;
+  }
+  
+  mat-drawer-container {
+    height: 100%;
+  }
+  
+  mat-drawer-content {
+    padding: 20px;
+  }
+
+  #content-detail{
+    //background: $background-color//$multaAlarm-gradientDashBoard;
+
+      background: $background-color-gradientDashBoard;
+    }
+
+    #header-custom{
+      background:$multaAlarm-light-80;
+    }
+    
+    
+    

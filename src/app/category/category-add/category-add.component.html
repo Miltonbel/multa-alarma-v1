@@ -1,0 +1,31 @@
+<div id="listCategoryContainer">
+
+    <mat-toolbar>
+        <mat-toolbar-row>
+            <h1 class="page-title">Agregar Categoría</h1>
+
+            <div class="spacer"></div>
+
+
+        </mat-toolbar-row>
+
+    </mat-toolbar>
+    <form [formGroup]="myForm" id="formAddCategory" (ngSubmit)="agregarCategoria()" nonvalidate>
+
+
+        <mat-form-field class="example-full-width">
+            <mat-label>Nombre</mat-label>
+            <input matInput class="custom-input" [formControl]="fieldFormControl" [errorStateMatcher]="matcher"
+                placeholder="Categoría">
+            <mat-error *ngIf="fieldFormControl.hasError('required')">
+                El campo es <strong>requerido</strong>
+            </mat-error>
+        </mat-form-field>
+
+        <div class="button-container">
+            <button type="button" mat-raised-button color="warn" class="custom-button custom-btn"
+                (click)="cancelar()">Cancelar</button>
+            <button mat-raised-button class="custom-btn" color="primary">Agregar</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,18 @@
+<mat-nav-list class="nav-list-container">
+
+    <a mat-list-item [class.list-item-active]="activeItem === 'Categorías'" (click)="setActiveItem('Categorías')"
+      routerLink="/">
+      <mat-icon svgIcon="custom-category"></mat-icon>
+      Categorías
+    </a>
+    <a mat-list-item [class.list-item-active]="activeItem === 'Tiempos'" (click)="setActiveItem('Tiempos')"
+      routerLink="/time">
+      <mat-icon svgIcon="custom-time"></mat-icon>
+      Tiempos
+    </a>
+    <a class="logout-option" mat-list-item routerLink="/">
+      <mat-icon svgIcon="custom-signout"></mat-icon>
+      Logout
+    </a>
+  
+  </mat-nav-list>
