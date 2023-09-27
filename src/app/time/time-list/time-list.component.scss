@@ -51,12 +51,12 @@ button.mat-icon-button {
 #spanAgregarTiempo {
   font-size: 14px;
   text-transform: uppercase;
-  color: $primary-color;
+  color: #ffffff;
 }
 
 #btnAgregarTiempo {
-  background: none;
-  border-color: $gray-88;
+  background: $primary-color;
+  border-color: $primary-color;
   border-style: solid;
   border-radius: 10px;
   border-width: 0.1em;
@@ -64,6 +64,7 @@ button.mat-icon-button {
 
 .customToolBar {
   padding-bottom: 16px;
+  margin-left: -23px;
 }
 
 .custom-btn {
@@ -71,6 +72,7 @@ button.mat-icon-button {
   background: none;
   border-color: $gray-88;
   border-style: solid;
+  padding: 3px 15px 3px 15px;
   border-radius: 5px;
   color: $primary-color;
   border-color: $primary-color;
@@ -81,6 +83,7 @@ button.mat-icon-button {
   font-size: 14px;
   background: none;
   border-color: $gray-88;
+  padding: 3px 15px 3px 15px;
   border-style: solid;
   border-radius: 5px;
   color: $background-color-letter-type-2;
@@ -130,7 +133,7 @@ button.mat-icon-button {
 
 #iconAdd {
   vertical-align: text-bottom;
-  color: $primary-color;
+  color: #ffffff;
 }
 
 
@@ -163,13 +166,13 @@ button.mat-icon-button {
   background-color: $primary-color;
 }
 
-#btnAgregarTiempo:hover,
-#btnAgregarTiempo:hover mat-icon {
+.custom-btn-orange:hover {
   color: $background-color-white;
-  background-color: $primary-color;
+  background-color: $background-color-letter-type-2;
+}
 
-  #spanAgregarTiempo {
-    color: $background-color-white;
-    background-color: $primary-color;
-  }
+#btnAgregarTiempo:hover,
+#btnAgregarTiempo:hover {
+  color: #00ACC1;
+  background-color: #00ACC1;
 }
