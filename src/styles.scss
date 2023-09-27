@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'ngx-toastr/toastr';
+@import '././assets/partials/colors';
 /* styles.scss */
 
 /* Fuentes personalizadas */
@@ -19,3 +20,47 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-size: 16px; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-floating-label{
+  color: $primary-color;
+}
+
+.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-floating-label {
+  color: #f44336;
+}
+
+.mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-line-ripple::before{
+  color: $gray-28;
+  caret-color: $gray-28;
+}
+
+.mdc-text-field:not(.mdc-text-field--active) .mdc-line-ripple::before {
+  caret-color: $gray-28;
+}
+
+.mdc-text-field--filled:not(.mdc-text-field--disabled):hover .mdc-line-ripple::before {
+  border-bottom-color: $primary-color;
+  caret-color: $gray-28;
+}
+
+.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-line-ripple::before {
+  border-bottom-color: $primary-color;
+  caret-color: $gray-28;
+}
+
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-line-ripple--active::before {
+  caret-color: $gray-28;
+}
+.mdc-text-field:not(.mdc-text-field--disabled) .mdc-text-field__input {
+  color: $gray-28;
+  caret-color: $gray-28;
+}
+
+.mdc-line-ripple .mdc-line-ripple--active{
+  caret-color: $gray-28;
+}
+
+.mdc-text-field--filled .mdc-line-ripple::after {
+  border-bottom-color: $primary-color;
+}
+
