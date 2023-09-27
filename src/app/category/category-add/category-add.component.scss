@@ -64,27 +64,6 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
-::ng-deep .mat-focused .mat-mdc-form-field-label
-{
-
-    color: $primary-color !important;
-}
-
-::ng-deep.mat-form-field-underline,
-.mdc-text-field {
-
-    background-color: $primary-color !important;
-}
-
-::ng-deep.mat-form-field-ripple,
-.mdc-text-field {
-    background-color: $primary-color !important;
-}
-
-.mat-mdc-input-element,
-.matformfieldlineripple{
-    color: $primary-color !important;
-}
 
 
 .custom-button:hover,
@@ -95,4 +74,3 @@
 .mat-form-field {
     background-color: transparent !important; /* Establece el fondo como transparente */
 }
-
