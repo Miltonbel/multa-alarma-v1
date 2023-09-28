@@ -2,9 +2,9 @@
 
 ## Prerrequisitos:
 
-Angular CLI: 15.2.9
-Node: 18.18.0
-Package Manager: npm 9.8.1
+* Angular CLI: 15.2.9
+* Node: 18.18.0
+* Package Manager: npm 9.8.1
 
 # Iniciación a Angular. Ejemplos.
 
@@ -36,15 +36,19 @@ ng serve
 
 La página principal en la que se cargan todos los ejemplos es `app.component.html`:
 
-```html
-![Listado de categorias](image.png)
 
-![Creación Categoria](image-2.png)
+![image](https://github.com/Miltonbel/multa-alarma-v1/assets/111078997/6cb7f4e6-bc70-4a4f-8bf8-3c40f8d07e4b)
 
-![Mensaje Creación Categoria](image-3.png)
 
-![Listado de tiempos](image-1.png)
+![image](https://github.com/Miltonbel/multa-alarma-v1/assets/111078997/9e9768bc-8391-4637-a372-e5798868a425)
 
-![Creación Tiempo](image-4.png)
-```
+
+![image](https://github.com/Miltonbel/multa-alarma-v1/assets/111078997/6901aa83-cc38-47cd-9be3-c5079ff5cef4)
+
+
+![image](https://github.com/Miltonbel/multa-alarma-v1/assets/111078997/34cce58d-aa6f-4383-b133-6dc744afa879)
+
+
+![image](https://github.com/Miltonbel/multa-alarma-v1/assets/111078997/fa22b9ed-0d6c-4e6c-8297-6fb83a6912c0)
+
 
